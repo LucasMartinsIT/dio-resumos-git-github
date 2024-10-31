@@ -9,9 +9,17 @@ Repositório para armazenar resumos sobre GIt e GitHub do curso Versionamento de
 
 ## 💻 Resumos das Aulas
 
-| Aulas | Resumos | 
-|-------|---------|
-| Gravando alterações no Repositório Local | [Resumos]() |
+| Comando | Oque faz | 
+|---------|----------|
+| mkdir | Cria um diretório (pasta)|
+| touch | Cria um arquivo vazio no diretório que estiver 
+| git init | Inicializa Repositório local|
+| git remote add origin <URL>| Conecta o Repositório local com Repositório remoto |
+| git clone <URL> <nome-do-diretório-local> | Clona o Repositório remoto |
+| git status | Mostra o status da árvore de trabalho e preparação para commit |
+| git add <nome-do-arquivo> | Adiciona este arquivo a área de preparação |
+| git commit -m"<mensagem-do-commit>" | Faz commit para o Repositório local |
+| git log | Demonstra todos os commits realizados |
 
 ```
 git init
